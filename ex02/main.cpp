@@ -6,6 +6,6 @@ int main()
 {
 const Animal* j = new Dog();
 j->makeSound();
-delete j;//should not create a leak
+delete j;
 return 0;
 }
